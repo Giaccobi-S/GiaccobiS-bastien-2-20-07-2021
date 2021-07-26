@@ -1,5 +1,44 @@
+@font-face {
+    font-family: 'raleway' ;
+    src: url('raleway/Raleway-Regular.ttf' );
+}
+nav
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 10px;
+}
 
+nav li
+{
+    margin-right: 50px;
+}
+
+a:hover
+{
+    text-decoration:top underline ;
+    color: #0065fc;
+}
+
+nav a
+{
+    font-size: 1em;
+    padding-bottom: 3px solid;
+    text-decoration: none;
+
+}
+   
 .info
 {
-    color: slategray;
+    color: dimgray;
 }
+
