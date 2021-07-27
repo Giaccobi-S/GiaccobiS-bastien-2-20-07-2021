@@ -25,14 +25,13 @@ nav li
 
 a:hover
 {
-    text-decoration:top underline ;
+    
     color: #0065fc;
 }
 
 nav a
 {
     font-size: 1em;
-    padding-bottom: 3px solid;
     text-decoration: none;
 
 }
