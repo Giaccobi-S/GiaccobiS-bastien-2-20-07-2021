@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'raleway' ;
     src: url('raleway/Raleway-Regular.ttf' );
+    
 }
 nav
 {
@@ -25,25 +26,19 @@ nav li
 
 a
 {
+    color: black;
     text-decoration: none;
-    color:#0065fc
 }
 a:hover
 {
-     
     border-top:2px solid #0065fc;
     padding-top: 10px;
     color: #0065fc;
-}
-a:visited
-{
-    color:#0065fc
 }
 nav a
 {
     font-size: 1em;
     text-decoration: none;
-
 }
    
 .info
