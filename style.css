@@ -46,3 +46,26 @@ nav a
     color: dimgray;
 }
 
+
+#Rechercher
+{
+    display: flex;
+}
+#Rechercher
+{
+width: 400px;
+border-radius: 10px;
+}
+.iconSize
+{
+    height: 50px;
+    width: 50px;
+}
+.recherche
+{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
