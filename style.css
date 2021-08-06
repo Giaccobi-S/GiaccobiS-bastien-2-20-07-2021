@@ -1,7 +1,10 @@
 html,body {
     font-family: Raleway;
 }
+
+
 /*//// css -> html////////*/
+
 
 .flexCenter
 {
@@ -23,6 +26,8 @@ align-items: center;
 }
 
 /*///////////nav//////////*/
+
+
 .decoNone
 {
     text-decoration: none;
@@ -48,8 +53,94 @@ height: 99px;
 {
     color:#0065fc;
 }
+
+
 /*///// color bordure nav/////*/
+
+
 .bordureNav
 {
     border-top: 1px solid #0065fc;
+}
+
+
+/*////////couleur texte///////*/
+
+
+.texteGras
+{
+    font-weight: bold;
+}
+
+
+/*////////Barre de recherche//////////*/
+
+
+.paddingrecherche
+{
+padding-left: 20px;
+}
+.bordureNone
+{
+    border: none;
+}
+.bordureSearch
+{
+    width: 400px;
+    border-radius: 10px;
+    border: 0,5px solid #f2f2f2;
+}
+.iconeSize
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.recherche
+{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.boutonR
+{
+height: 50px;
+width: 120px;
+color: white;
+cursor: pointer;
+border-radius: 0 10px 10px 0;
+}
+
+
+/*////////couleur et font///////*/
+
+.colorNoire
+{
+    color: black;
+}
+.colorGris
+{
+    color:#f2f2f2
+}
+.colorBleu
+{
+    color:#0065fc;
+}
+.colorBleuclaire
+{
+    color:#deebff;
+}
+.colorBleuclaireB
+{
+    background-color: #deebff;
+}
+.colorBleuB
+{
+    background-color: #0065fc;
+}
+.colorGrisB
+{
+    background-color: #f2f2f2;
 }
