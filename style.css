@@ -1,79 +1,55 @@
-@font-face {
-    font-family: 'raleway' ;
-    src: url('raleway/Raleway-Regular.ttf' );
-    
+html,body {
+    font-family: Raleway;
 }
-nav
+/*//// css -> html////////*/
+
+.flexCenter
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.flexAround
 {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: baseline;
-    
-}
-nav ul
-{
-    list-style-type: none;
-    display: flex;
-    position: absolute;
-    top: 10px;
-}
-
-nav li
-{
-    margin-right: 50px;
-}
-
-a
-{
-    color: black;
-    text-decoration: none;
-}
-a:hover
-{
-    border-top:2px solid #0065fc;
-    padding-top: 10px;
-    color: #0065fc;
-}
-nav a
-{
-    font-size: 1em;
-    text-decoration: none;
-}
-   
-.info
-{
-    color: dimgray;
-}
-
-
-#Rechercher
-{
-    display: flex;
-    justify-content: center;
-}
-#Rechercher
-{
-width: 400px;
-height: 50px;
-border-radius: 10px;
-}
-.iconSize
-{
-    background-color: gray;
-    height: 50px;
-    width: 50px;
-}
-.i
-{
+    justify-content: space-around;
     align-items: center;
 }
-.recherche
+.flexBetween
 {
-    justify-self: flex-start;
-    height: 50px;
-    width: 200px;
-    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*///////////nav//////////*/
+.decoNone
+{
+    text-decoration: none;
+}
+.sizeLiens
+{
+    width: 45%;
+}
+.sizeLien
+{
+width: 140px;
+height: 99px;
+}
+.colorH
+{
+    color:#0065fc;
+}
+.colorA
+{
     color: black;
-    font-weight: bold;
+}
+.colorS
+{
+    color:#0065fc;
+}
+/*///// color bordure nav/////*/
+.bordureNav
+{
+    border-top: 1px solid #0065fc;
 }
