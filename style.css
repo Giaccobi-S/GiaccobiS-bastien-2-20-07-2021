@@ -1,4 +1,4 @@
-html,body {
+html, body {
     font-family: Raleway;
 }
 
@@ -88,7 +88,7 @@ padding-left: 20px;
 {
     width: 400px;
     border-radius: 10px;
-    border: 0,5px solid #f2f2f2;
+    border: 0,5px solid color#f2f2f2;
 }
 .iconeSize
 {
@@ -143,4 +143,58 @@ border-radius: 0 10px 10px 0;
 .colorGrisB
 {
     background-color: #f2f2f2;
+}
+
+/*//////Filtre//////*/
+
+.filtre
+{
+    display: flex;
+    align-items: center;
+}
+.filtremarge
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Mfiltre
+{
+    margin-right: 20px;
+}
+.Mlelft
+{
+    margin-left: 5px;
+}
+.Mentreicone
+{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.Iconetaille
+{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+.filtretexte
+{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+.Mentreicone:hover > .filtretexte
+{
+    color: #0065fc;
+}
+.Mentreicone > .filtretexteI
+{
+    color: white;
+    background-color: #0065fc;
 }
