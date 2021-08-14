@@ -493,3 +493,24 @@ box-shadow: 5px 5px 5px 1px #f2f2f2;
     height: 200px;
     border-radius: 15px 15px 0 0; 
 }
+
+/*///////Footer///////*/
+
+
+.footer
+{
+    height: 300px;
+    margin-top: 100px;
+}
+.DblocF
+{
+    height: 150px;
+}
+.blocFmarge1
+{
+margin-left: 1%;
+}
+.blocFmarge3
+{
+margin-right: 20%;
+}
