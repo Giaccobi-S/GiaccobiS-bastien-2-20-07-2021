@@ -1,4 +1,5 @@
-html, body {
+.html 
+body{
     font-family: Raleway;
 }
 
@@ -79,8 +80,23 @@ height: 99px;
 
 .bordureNav
 {
-    border-top: 1px solid #0065fc;
+    border-top: 1px solid transparent;
 }
+
+.bordureNavtranspaent
+{
+    border-top: 1px solid transparent;
+}
+.bordureNav:hover
+{
+    border-top: 1px solid #0065fc;
+    cursor: pointer;
+}
+.bordureNav:hover > a
+{
+   color: #0065fc;
+}
+
 
 
 /*////////couleur texte///////*/
@@ -131,6 +147,11 @@ color: white;
 cursor: pointer;
 border-radius: 0 10px 10px 0;
 }
+.boutonR:hover
+{
+color: #0065fc;
+background-color: #f2f2f2;
+}
 
 
 /*////////couleur et font///////*/
@@ -177,7 +198,7 @@ border-radius: 0 10px 10px 0;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.Mfiltre
+.MfiltreTitre
 {
     margin-right: 20px;
 }
@@ -338,6 +359,12 @@ margin-bottom: 10px;
     padding: 1%;
     border-radius: 25px;
 }
+.blocTexesEtoiles:hover
+{
+cursor: pointer;
+transform: scale(1.1);
+}
+
 
 
 /*///////Les plus populaires//////*/
@@ -354,6 +381,11 @@ margin-bottom: 10px;
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+}
+.blocimgP:hover
+{
+    cursor: pointer;
+transform: scale(1.05);
 }
 
 .blocP1-2
@@ -394,6 +426,11 @@ padding-left: 5%;
     height: 160px;
     border-radius: 15px 0 0 15px;
 }
+.afficherplus
+{
+    cursor: pointer;
+transform: scale(1.05);
+}
 
 /*////////Activités à Marseille/////*/
 
@@ -419,6 +456,11 @@ padding-left: 5%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
+.Timg2356:hover
+{
+    cursor: pointer;
+transform: scale(1.05);
+}
 
 
 .FinitionActivités
@@ -426,6 +468,11 @@ padding-left: 5%;
 width: 23%;
 border-radius: 15px;
 box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.FinitionActivités:hover
+{
+    cursor: pointer;
+transform: scale(1.05);
 }
 .DH3
 {
