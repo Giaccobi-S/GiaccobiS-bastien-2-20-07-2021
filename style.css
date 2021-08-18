@@ -264,14 +264,14 @@ background-color: #f2f2f2;
 .TailleHébergements
 {
 flex: 2;
-height: 650px;
+height: 850px;
 margin-right: 20px;
 border-radius: 10px;
 }
 .TaillePopulaires
 {
 flex: 1;
-height: 650px;
+height: 850px;
 margin-left: 20px;
 border-radius: 10px;
 }
@@ -349,7 +349,7 @@ margin-bottom: 10px;
 .blocTexesEtoiles
 {
     width: 350px;
-    height: 230px;
+    height: 240px;
     background-color: white;
     padding: 10px;
     margin-right: 4%;
@@ -364,7 +364,7 @@ transform: scale(1.1);
 .afficherplus
 {
     cursor: pointer;
-    padding-left: 30px;
+    padding-left: 100px;
 }
 
 
@@ -372,10 +372,15 @@ transform: scale(1.1);
 
 .Mlespluspopulaire
 {
+   
+    padding-top: 50px;
+    margin-top: 20px;
     margin-left: 40px;
 }
 .MlogoP
-{
+{   
+    cursor: pointer;
+    padding-top: 30px;
     margin-right: 30px;
 }
 .Bpopulaires
@@ -390,6 +395,7 @@ transform: scale(1.1);
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+    margin-top: 30px;
 }
 .blocimgP:hover
 {
@@ -443,7 +449,7 @@ padding-left: 40px;
 .afficherplus
 {
     cursor: pointer;
-transform: scale(1.05);
+transform: scale(1.2);
 }
 
 /*////////Activités à Marseille/////*/
@@ -554,7 +560,7 @@ transform: scale(1.05);
 
 .footer
 {
-    height: 300px;
+    height: 200px;
     margin-top: 100px;
 }
 .DblocF
