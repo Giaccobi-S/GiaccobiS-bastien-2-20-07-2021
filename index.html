@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-   
+   <header>
         <title>reservia</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -32,7 +32,7 @@
             </div>
             </nav>
                     
-<header>
+
      <section>
                <div>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -52,23 +52,26 @@
       
                 <div class="filtre filtremarge">
          <div class="MfiltreTitre"><h1>Filtres</h1></div>
-         <div class="flexBetween Mentreicone">
+         <span class="flexBetween Mentreicone">
            <i class="fas fa-money-bill-wave fa-lg Iconetaille flexCenter"></i>
-           <div class="filtretexte flexCenter">Economique</div>
-          </div>
-         <div class="flexBetween Mentreicone">
-           <i class="fas fa-child fa-lg Iconetaille flexCenter"></i>
-           <div class="filtretexte flexCenter">Familial</div>
-          </div>
-         <div class="flexBetween Mentreicone">
-           <i class="fas fa-heart fa-lg Iconetaille flexCenter"></i>
-           <div class="filtretexte flexCenter">Romantique</div>
-          </div>
-         <div class="flexBetween Mentreicone">
+           <span class="filtretexte flexCenter texteGras">Economique</span>
+         </span>
+         <span class="flexBetween Mentreicone">
+           <i class="fas fa-child fa-lg Iconetaille"></i>
+           <div class="filtretexte flexCenter texteGras">Familial</div>
+         </span>
+         <span class="flexBetween Mentreicone">
+           <i class="fas fa-heart fa-lg Iconetaille"></i>
+           <div class="filtretexte flexCenter texteGras">Romantique</div>
+         </span>
+         <span class="flexBetween Mentreicone">
            <i class="fas fa-dog fa-lg Iconetaille flexCenter"></i>
-           <div class="filtretexte flexCenter">Animaux autotisés</div>
-          </div>
-       </div> 
+           <div class="filtretexte flexCenter texteGras">Animaux autotisés</div>
+         </span>
+                </div>
+        </section>
+          
+        
                 
 
 
@@ -87,7 +90,10 @@
             <h1>Hébergements à Marseille</h1>
             <div class="bloc1 flexBetween">
                 <div class="blocTexesEtoiles flexcolumnCenter">
-                    <div class="imgHebergement1"></div> 
+                  <img class="imgHebergement1"
+                  src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                  alt="image Hebergement1"/>
+                  
                     <div class="finitionH">
                       <h3>Auberge la Cannebière</h3> 
                       <p>Nuit à partir de 25€</p>
@@ -101,7 +107,10 @@
                     </div>
                  </div>
                  <div class="blocTexesEtoiles flexcolumnCenter">
-                    <div class="imgHebergement2"></div> 
+                   <img class="imgHebergement2"
+                   src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                   alt="image Hebergement2"/>
+                    
                     <div class="finitionH">
                       <h3>Hôtel du port</h3> 
                       <p>Nuit à partir de 52€</p>
@@ -115,7 +124,10 @@
                     </div>
                  </div>
                  <div class="blocTexesEtoiles flexcolumnCenter">
-                    <div class="imgHebergement3"></div> 
+                   <img class="imgHebergement3"
+                   src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                   alt="image Hebergement3"/>
+                    
                     <div class="finitionH">
                       <h3>Hôtel Les mouettes</h3> 
                       <p>Nuit à partir de 76€</p>
@@ -131,7 +143,10 @@
                 </div>
                 <div class="bloc2 flexBetween">
                  <div class="blocTexesEtoiles flexcolumnCenter">
-                    <div class="imgHebergement4"></div> 
+                   <img class="imgHebergement4"
+                   src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                   alt="imge Hebergement4"/>
+                    
                     <div class="finitionH">
                       <h3>Hôtel de la mer</h3> 
                       <p>Nuit à partir de 46€</p>
@@ -145,7 +160,10 @@
                     </div>
                  </div>
                  <div class="blocTexesEtoiles flexcolumnCenter">
-                    <div class="imgHebergement5"></div> 
+                   <img class="imgHebergement5"
+                   src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                   alt="image Hebergemt5"/>
+                    
                     <div class="finitionH">
                       <h3>Auberge Le Panier</h3> 
                       <p>Nuit à partir de 23€</p>
@@ -159,7 +177,10 @@
                     </div>
                  </div>
                  <div class="blocTexesEtoiles flexcolumnCenter">
-                    <div class="imgHebergement6"></div> 
+                   <img class="imgHebergement6"
+                   src="./images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                   alt="image Hebergent6"/>
+                    
                     <div class="finitionH">
                       <h3>Hôtel chez Amina</h3> 
                       <p>Nuit à partir de 96€</p>
@@ -173,17 +194,20 @@
                     </div>
                  </div>
                 </div>  
-            
-            <p class="texteGras">Afficher plus</p>
+            <p class="afficherplus texteGras">Afficher plus</p>
          </div>
+         
          <div class="TaillePopulaires Bpopulaires colorGrisB">
             <div class="flexBetween">
-                <h1>Les plus populaires</h1>
-                <div><i class="fas fa-chart-line fa-2x"></i></div>
+                <h1 class="Mlespluspopulaire">Les plus populaires</h1>
+                <div><i class="fas fa-chart-line fa-2x MlogoP"></i></div>
             </div>
             <div class="flexcolumnAround">
                 <div class="blocP1-2 blocimgP flexCenter">
-                <div class="imgPopulaire1"></div>
+                  <img class="imgPopulaire1"
+                  src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                  alt="image populaire1"/>
+
                 <div class="FinitionimgP">
                     <h3>Hôtel L soleil du matin</h3>
                     <p>Nuit à partir de 128€</p>
@@ -197,9 +221,12 @@
                 </div>
             </div>
                 <div class="blocP1-2 blocimgP flexCenter">
-                <div class="imgPopulaire2"></div>
+                  <img class="imgPopulaire2"
+                  src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                  alt="image hebergement2"/>
+                
                 <div class="FinitionimgP">
-                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                    <h3>Au coeur de l'eau<br>Chambres d'hôtes</br></h3>
                     <p>Nuit à partir de 71€</p>
                     <div>
                         <i class="fas fa-star colorH"></i>
@@ -210,8 +237,11 @@
                     </div>
                 </div>
                </div>
-            <div class="blocimgP flexCenter">
-                <div class="imgPopulaire3"></div>
+            <div class="blocimgP flexCenter blocP3">
+              <img class="imgPopulaire3"
+              src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+              alt="image hebergement3"/>
+                
                 <div class="FinitionimgP">
                     <h3>Hôtel Tout bleu et Blanc</h3>
                     <p>Nuit à partir de 68€</p>
@@ -232,38 +262,56 @@
          <h1>Activités à Marseille</h1>
          <div class="blocActivités flexBetween">
             <div class="FinitionActivités flexcolumnCenter">
-               <div class="imgActivités1"></div> 
+              <img class="imgActivités1"
+              src="./images/hebergements/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+              alt="image activite1"/>
+                
                <div class="DH3 DActivités"><h3>Vieux Port</h3></div>
             </div> 
          
         
          <div class="blocActivités2356 flexcolumnBetween">
             <div class="Timg2356 flexcolumnCenter">
-               <div class="imgActivités2"></div> 
+              <img class="imgActivités2"
+              src="./images/hebergements/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+              alt="image activite2"/>
+                
                <div class="DH3 DActivités"><h3>Fort de Pomègues</h3></div>
             </div> 
         
          
             <div class="Timg2356 flexcolumnCenter">
-               <div class="imgActivités3"></div> 
+              <img class="imgActivités3"
+              src="./images/hebergements/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+              alt="image activite3"/>
+                
                <div class="DH3 DActivités"><h3>îles du Frioul</h3></div>
             </div> 
          </div>
          <div class="FinitionActivités flexcolumnCenter">
-            <div class="imgActivités4"></div> 
+           <img class="imgActivités4"
+           src="./images/hebergements/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+           alt="image activite4"/>
+             
             <div class="DH3 DActivités"><h3>Parc National des Calanques</h3></div>
          </div> 
       
      
       <div class="blocActivités2356 flexcolumnBetween">
          <div class="Timg2356 flexcolumnCenter">
-            <div class="imgActivités5"></div> 
+           <img class="imgActivités5"
+           src="./images/hebergements/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+           alt="image activite5"/>
+             
             <div class="DH3 DActivités"><h3>Notre-Dame-de-la-Garde</h3></div>
          </div> 
      
       
          <div class="Timg2356 flexcolumnCenter">
-            <div class="imgActivités6"></div> 
+           <img class="imgActivités6"
+           src="./images/hebergements/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+           alt="image activite6"/>
+            
             <div class="DH3 DActivités"><h3>Parc Longchamp</h3></div>
          </div> 
         </div>
