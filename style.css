@@ -1,8 +1,10 @@
-.html 
-body{
-    font-family: Raleway;
+@font-face {
+    font-family: "Raleway-Regular.ttf";
+    src: url("/raleway/Raleway-Regular.ttf") format("truetype");
+           }
+head body footer{
+    font-family: "Raleway-Regular.ttf";
 }
-
 
 /*//// css -> html////////*/
 
