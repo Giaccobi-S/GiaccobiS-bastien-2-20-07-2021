@@ -7,7 +7,10 @@ head body footer{
 }
 
 /*//// css -> html////////*/
-
+.blocpage{
+    width: 1800px;
+    margin: auto;
+}
 
 .flexCenter
 {
@@ -56,7 +59,7 @@ align-items: center;
 }
 .sizeLiens
 {
-    width: 45%;
+    width: 100%;
 }
 .sizeLien
 {
@@ -190,6 +193,7 @@ background-color: #f2f2f2;
 /*//////Filtre//////*/
 
 .Filters {
+    width: 70%;
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
@@ -202,12 +206,13 @@ background-color: #f2f2f2;
   .FiltersFilter {
     display: flex;
     align-items: center;
-    margin-right: 2rem;
+    margin-right: 40px;
     border: 2px solid #f2f2f2;
     border-radius: 2rem;
     margin-bottom: 1rem;
     cursor: pointer;
     font-weight: bold;
+    padding-right: 25px;
   }
   .FiltersFilter:last-child {
     margin-right: 0;
@@ -255,25 +260,34 @@ background-color: #f2f2f2;
 
 /*///////Hébergements à Marseille/////////*/
 
-
+.TitreHebergement
+{
+    margin-left: 20px;
+}
 .TailleHébergements
 {
+
 flex: 2;
-height: 850px;
-margin-right: 20px;
+height: 750px;
+margin-right: 40px;
 border-radius: 10px;
 }
 .TaillePopulaires
 {
 flex: 1;
-height: 850px;
+height: 750px;
 margin-left: 20px;
 border-radius: 10px;
 }
 
 
 /*///////images/////*/
-
+.shadowimage
+{
+width: 23%;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
+}
 
 .imgHebergement1
 {
@@ -330,11 +344,14 @@ border-radius: 10px;
 }
 .bloc1
 {
+ margin-top: -20px;
 margin-bottom: 10px;
+margin-left: 20px;
 }
 .bloc2
 {
-    margin-top: 10px;
+margin-left: 20px;
+    margin-top: -10px;
 }
 .finitionH
 {
@@ -358,6 +375,7 @@ transform: scale(1.1);
 
 .afficherplus
 {
+    margin-left: 20px;
     cursor: pointer;
     padding-left: 100px;
 }
@@ -369,7 +387,7 @@ transform: scale(1.1);
 {
    
     padding-top: 50px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 40px;
 }
 .MlogoP
@@ -390,7 +408,7 @@ transform: scale(1.1);
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .blocimgP:hover
 {
@@ -419,6 +437,7 @@ padding-left: 40px;
 
 .imgPopulaire1
 {
+    
     background-size: cover;
     background-position: center;
     width: 35%;
