@@ -391,8 +391,8 @@ transform: scale(1.1);
 
 .Mlespluspopulaire
 {
-   
-    padding-top: 50px;
+   margin-bottom: -10px;
+    padding-top: 20px;
     margin-top: 5px;
     margin-left: 40px;
 }
@@ -404,6 +404,7 @@ transform: scale(1.1);
 }
 .Bpopulaires
 {
+    
   padding-left: 20px;  
   padding-right: 20px;
 }
@@ -424,12 +425,14 @@ transform: scale(1.05);
 
 .blocP1-2
 {
-margin-bottom: 20px;
+box-shadow: 5px 5px 5px 1px rgb(199, 197, 197); 
+margin-bottom: 10px;
 margin-left: 40px;
 margin-right: 30px;
 }
 .blocP3
 {
+    box-shadow: 5px 5px 5px 1px rgb(199, 197, 197);
     margin-left: 40px;
     margin-right: 30px;
     margin-bottom: 30px;
