@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Raleway-Regular.ttf";
     src: url("/raleway/Raleway-Regular.ttf") format("truetype");
@@ -7,6 +8,10 @@ head body footer{
 }
 
 /*//// css -> html////////*/
+.marge8
+{
+    margin: 8px;
+}
 
 .imageLogo{
     width: 100px;
@@ -14,8 +19,16 @@ head body footer{
 }
 
 .blocpage{
-    width: 1800px;
-    margin: auto;
+    
+    margin: 15px;
+    
+}
+
+.flexStart
+{
+display: flex;
+justify-content: flex-start;
+align-self: start;
 }
 
 .flexCenter
@@ -197,12 +210,14 @@ background-color: #f2f2f2;
 }
 
 /*//////Filtre//////*/
-
+.MargeBloc1
+{
+    margin-right: 40px;
+}
 .Filters {
     width: 70%;
     display: flex;
     margin-top: 2rem;
-    flex-wrap: wrap;
   }
   .FiltersTitle {
     margin: 0 2rem 1rem 0;
@@ -253,6 +268,7 @@ background-color: #f2f2f2;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    
 }
 .infoS
 {
@@ -274,15 +290,14 @@ background-color: #f2f2f2;
 {
 
 flex: 2;
-height: 750px;
+height: 700px;
 margin-right: 40px;
 border-radius: 10px;
 }
 .TaillePopulaires
 {
 flex: 1;
-height: 750px;
-margin-left: 20px;
+height: 700px;
 border-radius: 10px;
 }
 
@@ -290,7 +305,7 @@ border-radius: 10px;
 /*///////images/////*/
 .shadowimage
 {
-width: 23%;
+width: 20%;
 border-radius: 15px;
 box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
 }
@@ -300,7 +315,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 130px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement2
@@ -308,7 +323,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 130px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement3
@@ -316,7 +331,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 130px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement4
@@ -324,7 +339,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 130px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement5
@@ -332,7 +347,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 130px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement6
@@ -340,7 +355,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 120px;
+    height: 130px;
     border-radius: 15px 15px 0 0;
 }
 .blocH
@@ -361,13 +376,13 @@ margin-left: 20px;
 }
 .finitionH
 {
-   width: 90%; 
+   width: 100%; 
 }
 
 .blocTexesEtoiles
 {
-    width: 350px;
-    height: 240px;
+    width: 300px;
+    height: 220px;
     background-color: white;
     padding: 10px;
     margin-right: 4%;
@@ -400,7 +415,7 @@ transform: scale(1.1);
 {   
     cursor: pointer;
     padding-top: 30px;
-    margin-right: 30px;
+    margin-right: 90px;
 }
 .Bpopulaires
 {
@@ -424,23 +439,37 @@ transform: scale(1.05);
 }
 
 .blocP1-2
-{
+{width: 450px;
 box-shadow: 5px 5px 5px 1px rgb(199, 197, 197); 
 margin-bottom: 10px;
 margin-left: 40px;
 margin-right: 30px;
 }
 .blocP3
-{
+{   width: 455px;
     box-shadow: 5px 5px 5px 1px rgb(199, 197, 197);
     margin-left: 40px;
     margin-right: 30px;
     margin-bottom: 30px;
 }
+.aligneEtoilefin
+{
+   padding-top: 60px;
+   
+}
+.aligneEtoilefin2
+{
+    padding-top: 40px;
+}
+.aligneEtoilefin3
+{
+    padding-top: 60px;
+}
 
 .FinitionimgP
 {
 width: 60%;
+height: 160px;
 padding-left: 40px;
 }
 
@@ -598,4 +627,102 @@ margin-left: 1%;
 {
 margin-right: 20%;
 }
+
+
+/*////////media queries/////////*/
+@media screen and (max-width: 1600px){
+.Hébergements
+{
+    
+
+
+}
+
+@media screen and (max-width: 1483px){
+.filtrecolumb
+{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+}
+
+}
+@media screen and (max-width: 815px){
+    .navH-A{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .blocH{
+    flex: none;
+    width: 90%;
+    margin-left: 0%;
+    padding: 5%;
+    }
+
+    .TaillePopulaires{
+    width: 100%;
+    margin-bottom: 5%;
+
+    }
+    .Bpopulaires{
+    flex: none;
+    width: 90%;
+    margin-left: 0%;
+    padding: 5%;
+    
+    }
+    
+    .bloc1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        
+        
+        }
+        .bloc2{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        }
+    
+}
+
+
+
+@media screen and (max-width: 815px){
+    #Hébergements{
+        flex-direction: column-reverse;
+        width: 100%;
+        
+        }
+
+            
+}
+
+    
+@media screen and (max-width: 815px){
+    .navH-{
+        display: flex;
+        order: 1;
+        width: 100%;
+        
+    }
+}
+    
+
+
+    
+
+
+    
+
+
+
 
