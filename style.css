@@ -630,91 +630,59 @@ margin-right: 20%;
 
 
 /*////////media queries/////////*/
-@media screen and (max-width: 1600px){
-.Hébergements
-{
-    
-
-
-}
-
-@media screen and (max-width: 1483px){
-.filtrecolumb
-{
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-
-}
-
-}
-@media screen and (max-width: 815px){
-    .navH-A{
-    flex-wrap: wrap;
-    flex-direction: column;
-    display: flex;
-    justify-content: flex-start;
-    }
-    .blocH{
-    flex: none;
-    width: 90%;
-    margin-left: 0%;
-    padding: 5%;
-    }
-
-    .TaillePopulaires{
-    width: 100%;
-    margin-bottom: 5%;
-
-    }
-    .Bpopulaires{
-    flex: none;
-    width: 90%;
-    margin-left: 0%;
-    padding: 5%;
-    
-    }
-    
-    .bloc1{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        
-        
-        
-        }
-        .bloc2{
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
-        }
+@media screen and (max-width: 1024px){
+.blocpage{
+    ;
+    width: 1000px;
     
 }
-
-
-
-@media screen and (max-width: 815px){
-    #Hébergements{
+     #Hébergements{
         flex-direction: column-reverse;
-        width: 100%;
-        
+        width: 950px;
+        margin-right: 0px;
+        margin-left: 15px;
         }
-
-            
+        .afficherplus{
+    padding: 20px;
+    width: 150px;
+        }
+.TaillePopulaires{
+    margin-bottom: 5%;
+   
 }
-
+.TailleHébergements{
+    margin: auto;
+    width: 950px;
+    padding: 0;
+}
+.bloc1{
+    margin: 20px;
+   
     
-@media screen and (max-width: 815px){
-    .navH-{
-        display: flex;
-        order: 1;
-        width: 100%;
-        
-    }
 }
+.bloc2{
+    margin: 20px;
+}
+#Activités{
+    
+    width: 95%;
+    margin-left: 15px;
+}
+.blocActivités{
+    height: auto;
+}
+.footer{
+    width: 960px;
+    margin-left: 10px;
+}
+.MlogoP{
+    margin-right: 40px;
+}
+
+}
+
+
+
     
 
 
