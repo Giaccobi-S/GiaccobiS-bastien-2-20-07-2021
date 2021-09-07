@@ -11,6 +11,7 @@ head body footer{
 .marge8
 {
     margin: 8px;
+   
 }
 
 .imageLogo{
@@ -301,7 +302,9 @@ height: 700px;
 border-radius: 10px;
 }
 
-
+.TailleimagA{
+    
+}
 /*///////images/////*/
 .shadowimage
 {
@@ -314,6 +317,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 130px;
     border-radius: 15px 15px 0 0;
@@ -330,6 +334,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 130px;
     border-radius: 15px 15px 0 0;
@@ -338,6 +343,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 130px;
     border-radius: 15px 15px 0 0;
@@ -354,6 +360,7 @@ box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 130px;
     border-radius: 15px 15px 0 0;
@@ -475,23 +482,28 @@ padding-left: 40px;
 
 .imgPopulaire1
 {
-    
+   
+   
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
 }
 .imgPopulaire2
 {
+   
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
 }
 .imgPopulaire3
 {
+    
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -524,6 +536,7 @@ transform: scale(1.2);
 }
 .Timg2356
 {
+    object-fit: cover;
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
@@ -562,6 +575,7 @@ transform: scale(1.05);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
@@ -570,6 +584,7 @@ transform: scale(1.05);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0 0; 
@@ -578,6 +593,7 @@ transform: scale(1.05);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 150px;
     border-radius: 15px 15px 0 0; 
@@ -586,6 +602,7 @@ transform: scale(1.05);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
@@ -594,6 +611,7 @@ transform: scale(1.05);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0; 
@@ -602,6 +620,7 @@ transform: scale(1.05);
 {
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0; 
@@ -630,25 +649,115 @@ margin-right: 20%;
 
 
 /*////////media queries/////////*/
+@media  and (max-width: 1444) {
+    
+}
 @media screen and (max-width: 1024px){
 .blocpage{
-    ;
-    width: 1000px;
     
+    width: 980px;
+    margin: 0;
+    
+}
+.Marginrecherche{
+    
+}
+.filtrecolumb{
+    width: 950px;
+}
+.FiltersTitle{
+    margin: 0 1rem 1rem 0;
+}
+.MargeBloc1{
+    margin-right: 15px;
+}
+.FiltersFilter{
+    
+    margin-right: 15px;
+    padding-right: 10px;
 }
      #Hébergements{
         flex-direction: column-reverse;
-        width: 950px;
+        width: 100%;
         margin-right: 0px;
-        margin-left: 15px;
+        margin-left: 0px;
         }
         .afficherplus{
     padding: 20px;
     width: 150px;
         }
+.imgHtablette{
+height: 130px;
+ }
 .TaillePopulaires{
     margin-bottom: 5%;
+   width: 950px;
+   height: 250px;
+   padding: 0;
+}
+.blocP1-2{
+    width: 300px;
+    height: 170px;
+    margin-bottom: 4%;
+margin-right: 20px;
+margin-left:  30px;
+
+
+
+}
+/*.blocimgP{
+    width: 250px;
+    height: 170px;
+
+margin-bottom: 4%;
+margin-right: 0;
+margin-left:  0%;
+
+}/*/
+.blocP3{
+    width: 300px;
+    height: 170px;
+    margin-top: 28px;
+    margin-left: 30px;
+    
+
+    
+}
+.Mlespluspopulaire{
+    margin-left: 30px;
+}
+.marge8{
+    padding-top: 10px;
+    
+}
+
+.imagepading{
+    padding-top: 0;
+}
+
+.FinitionimgP{
+    padding: 0;
+}
+
+.flexrowP
+{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 250px;
+
    
+    
+}
+.imgPopulaire1{
+    width: 40%;
+
+}
+.imgPopulaire2{
+    width: 40%;
+}
+.imgPopulaire3{
+    width: 40%;
 }
 .TailleHébergements{
     margin: auto;
@@ -656,7 +765,7 @@ margin-right: 20%;
     padding: 0;
 }
 .bloc1{
-    margin: 20px;
+ margin: 20px;
    
     
 }
@@ -667,25 +776,100 @@ margin-right: 20%;
     
     width: 95%;
     margin-left: 15px;
+    margin-bottom: 0;
+    height: 600px;
+    
+    
 }
 .blocActivités{
-    height: auto;
+    height: 200px;
+    margin-top: 50px;
 }
+.FinitionActivités{
+    height: 490px;
+    margin-top: 34%;
+    margin-bottom: 2%;
+}
+.blocActivités2356{
+    height: 400px;
+margin-top: auto;
+    
+}
+.imgActivités1{
+    height: 490px;
+}
+.imgActivités4{
+    height: 490px;
+}
+.imgActivités2 {
+height: 200px;
+}
+.imgHebergement5{
+    height: 200px;
+}   
+.imgActivités6
+
 .footer{
-    width: 960px;
-    margin-left: 10px;
+    width: 90%;
+    margin-left: 40px;
+   
 }
 .MlogoP{
     margin-right: 40px;
 }
 
 }
-
-
-
+/*
     
+    @media screen and (max-width: 815px){
+        .Taillenav{
+            height: auto;
+            width: 100%;
+        }
+        .navH-A{
+            order: 1;
+            width: 100%;
+            margin-left: 0;
+        }
+        .sizeLien{
+            flex-direction: row ;
+        }
+            .sizeLienphone{
+                height: auto;
+               width: 50%;
+               border-top: 0;
+               border-bottom: 5px solid #0065fc;
+               }
+               .sizeLiens{
+                   width: 100%;
+                   flex-direction: row;
+                   flex-wrap: wrap;
+               }
+               
+               .sizeLienphone:hover {
+                   border-top: 0;
+                   border-bottom: 5px solid #0065fc;
+               }
+           
+      
+    
+    
+            
+    
+    
+    }
 
-
+@media screen and (max-width: 415px){
+    
+    .sizeLiens{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .TaillePopulaires{
+        
+    }
+}
     
 
 
