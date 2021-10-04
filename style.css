@@ -1,12 +1,10 @@
 
-
-@font-face {
-    font-family: "Raleway-Regular.ttf";
-    src: url("/raleway/Raleway-Regular.ttf") format("truetype");
-           }
-head body footer{
-    font-family: "Raleway-Regular.ttf";
+body{
+    font-family: 'Raleway-regular.ttf', sans-serif;
 }
+
+    
+
 
 /*//// css -> html////////*/
 .marge8
@@ -331,7 +329,6 @@ background-color: #f2f2f2;
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 31% 30% 30%;
-    grid-template-rows: 4;
     grid-template-rows: 10% 31% 31% 15%;
     grid-column-gap: 20px;
     grid-row-gap: 35px;
@@ -501,7 +498,6 @@ transform: scale(1.1);
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 4;
     grid-template-rows: 70px 200px 200px 200px;
     grid-row-gap: 20px;
     background-color: #f2f2f2;
@@ -569,7 +565,6 @@ margin-right: 30px;
 
 .imgPopulaire1
 {
-   
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -748,9 +743,7 @@ margin-right: 30px;
     width: 95%;
     margin-left: 2.5%;
     display: grid;
-    grid-template-columns: 3;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2;
     grid-template-rows: 70px 300px
    
 }
@@ -820,7 +813,6 @@ margin-bottom: 80px;
     margin-right: 2.5%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 4;
     grid-template-rows: 18% 27% 25% 25%;
     grid-row-gap: 10px;
     height: 800px; 
@@ -872,7 +864,6 @@ margin-bottom: 80px;
     height: 1050px;
     width: 93%;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 5;
     grid-template-rows: 50px 250px 250px 250px 50px;
     grid-row-gap: 50px;
     margin-bottom: 0px;
@@ -933,7 +924,6 @@ margin-bottom: 80px;
         margin-bottom: 25px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 4;
         grid-template-rows: 10% 25% 25% 25%;
       }
       
@@ -1042,7 +1032,6 @@ margin-bottom: 80px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 5px;
-        grid-template-rows: 2;
         grid-template-rows: 50px 50px;
         grid-row-gap: 30px;  
         margin-top: 20px;
@@ -1168,7 +1157,7 @@ font-size: small;
 }
 
 .EtoilesBottom{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .EtoilesBottom1{
     margin-top: 30px;
@@ -1196,7 +1185,6 @@ background-color: white;
     width: 100%;
     margin-left: 0px;
     grid-template-columns: 90%;
-    grid-template-rows: 5;
     grid-template-rows: 3% 10% 10% 10% 10% 10% 10% 3%;
     grid-row-gap: 50px;
    margin-left: 5px;
@@ -1287,15 +1275,10 @@ background-color: white;
         height: 100px;
     }
 
-    .shadowimage{
-        box-shadow: #f2f2f2;
-    }
-
-
+    
 
     #Activités {
         display: grid;
-        grid-template-rows: 7;
         grid-template-columns: 95%;
         grid-template-rows: 3% 10% 10% 10% 10% 10% 3%;
         grid-row-gap: 80px;
@@ -1373,21 +1356,70 @@ background-color: white;
 
 }
 @media screen and (max-width: 375px){
-
-.GrasT{
-    font-size: 130%;
+    .GrasT{
+        font-size: 125%;
+        margin: 0px;
+        margin-top: 30px;
+        font-weight: bold;
+    }
     
+    .recherche{
+    width: 190px;
+    }
+    .FiltersFilter{
+        margin-right: 12px;
+    }
+    .TH{
+        margin-left: 0px;
+    }
+    .MargeBloc1{
+        margin-left: 0px;
+    }
+    .EtoilesBottom{
+        margin-top: 35px;
+    }
+    .EtoilesBottom1{
+        margin-top: 15px;
+    }
+    .titreActivité{
+        font-size: x-large;
+    }
+
 }
-.recherche{
-width: 190px;
-}
-.FiltersFilter{
-    margin-right: 12px;
-}
+@media screen and (max-width: 320px){
 .MargeBloc1{
+flex-wrap: wrap;
+margin-right: 50px;
+}
+.navH-A{
     margin-left: 0px;
+    padding-right: 0px;
+}
+
+.Margin320{
+    margin-left: 30px;
+}
+
+.TP{
+    font-size: medium;
 }
 .EtoilesBottom{
-    margin-top: 35px;
+    margin-top: 20px;
+}
+.marge8{
+    font-size: 15px;
+}
+.TH{
+    font-size: 20px;
+}
+.AfficherP{
+    font-size: 15px;
+}
+.titreActivité{
+    font-size: 20px;
+}
+
+.Grid4{
+    margin-right: 10px;
 }
 }
