@@ -126,23 +126,29 @@ display: flex;
     justify-content: center;
 
 }
+.MargeB{
+
+}
 .GrasT{
     font-size: xx-large;
 }
 
 .bordureNav
 {
-    border-top: 1px solid transparent;
+    border-top: 2px solid transparent;
+    
 }
 
 .bordureNavtranspaent
 {
-    border-top: 1px solid transparent;
+    border-top: 2px solid transparent;
+    
 }
 .bordureNav:hover
 {
-    border-top: 1px solid #0065fc;
+    border-top: 2px solid #0065fc;
     cursor: pointer;
+    
 }
 .bordureNav:hover > a
 {
@@ -597,7 +603,7 @@ margin-right: 30px;
     margin-top: 40px;
 }
 .EtoilesBottom2{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .H-PROW{
     display: flex;
@@ -636,6 +642,11 @@ margin-right: 30px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    
+  }
+  .activitéCadre:hover{
+    cursor: pointer;
+    transform: scale(1.05);
   }
   .ActivitéWrap {
     position: relative;
@@ -726,6 +737,18 @@ margin-right: 30px;
         width: 90%;
     }
 }
+@media screen and (max-width: 1366px){
+    .TailleHT{
+        margin: 0px;
+        margin-left: 5px;
+    }
+    .EtoilesBottom{
+        margin-top: 45px;
+    }
+    .TopEH{
+        margin-top: 15px;
+    }
+}
 @media screen and (max-width: 1354px){
 
     .EtoilesBottom{
@@ -733,7 +756,7 @@ margin-right: 30px;
     }
 
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1280px){
 .Margin320{
     margin-right: 30px;
 }
@@ -782,7 +805,10 @@ margin-right: 30px;
     margin-top: 35px;
 }
 .EtoilesBottom1{
-    margin-top: 30px;
+    margin-top: 40px;
+}
+.EtoilesBottom2{
+    margin-top: 35px;
 }
 .blocP1-2-3{
 width: 250px;
@@ -802,8 +828,8 @@ margin-bottom: 80px;
 
 }
 
-
-@media screen and (max-width: 810px){
+}
+@media screen and (max-width: 823px){
 .GrasT{
     font-size: x-large;
 }
@@ -846,6 +872,7 @@ padding-top: 0px;
 .PH1{
     grid-column: 1;
     grid-row: 2;
+    margin-left: 40px;
 }
 .PH2{
     grid-column: 1;
@@ -985,8 +1012,6 @@ margin-bottom: 80px;
 #Footer{
     width: 95%;
     margin-top: 0px;
-    grid-template-columns: 3;
-    grid-template-rows: 1;
     grid-column-gap: 100px;
 }
 .Footer{
@@ -1008,7 +1033,7 @@ margin-bottom: 80px;
 }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 667px){
     .MargeBloc1{
         margin-right: 0px;
         margin-left: 40px;
@@ -1018,8 +1043,6 @@ margin-bottom: 80px;
 }
 #Footer{
     width: 95%;
-    grid-template-columns: 1;
-    grid-template-rows: 3;
     grid-column-gap: 100px;
 }
 
@@ -1354,8 +1377,6 @@ background-color: white;
      #Footer{
         width: 95%;
         margin-top: 0px;
-        grid-template-columns: 1;
-        grid-template-rows: 3;
         margin-left: 8px;
         
     }
@@ -1388,9 +1409,12 @@ background-color: white;
         margin-top: 30px;
         font-weight: bold;
     }
-    
+    #Recherche{
+        margin-left: 15px;
+    }
     .recherche{
     width: 190px;
+    margin-left: 10px;
     }
     .FiltersFilter{
         margin-right: 12px;
@@ -1402,14 +1426,23 @@ background-color: white;
         margin-left: 0px;
     }
     .EtoilesBottom{
-        margin-top: 35px;
+        margin-top: 55px;
     }
     .EtoilesBottom1{
-        margin-top: 15px;
+        margin-top: 40px;
+    }
+    .EtoilesBottom2{
+        margin-top: 40px;
+    }
+    .TailleHT{
+        margin-top: 8px;
     }
     .titreActivité{
         font-size: x-large;
     }
+.Margin320{
+    margin-right: 15px;
+}
 
 }
 @media screen and (max-width: 320px){
@@ -1431,6 +1464,12 @@ background-color: white;
         }
         .EtoilesBottom{
             margin-top: 20px;
+        }
+        .EtoilesBottom1{
+            margin-top: 20px;
+        }
+        .EtoilesBottom2{
+            margin-top: 40px;
         }
         .marge8{
             font-size: 15px;
@@ -1466,4 +1505,29 @@ background-color: white;
             margin-left: 20px;
             width: 300px;
         }
+}
+@media screen and (max-width: 280px){
+ .GrasT{
+     font-size: 18px;
+ }
+ .recherche{
+     width: 150px;
+     font-size: 15px;
+     padding-left: 7px;
+ }
+ .navH-A{
+     margin-left: 40px;
+ }
+.Margin320{
+    margin-left: 35px;
+}
+.margePI{
+    font-size: 12px;
+}
+.EtoilesBottom{
+    margin-top: 30px;
+}
+.EtoilesBottom2{
+    margin-top: 30px;
+}
 }
