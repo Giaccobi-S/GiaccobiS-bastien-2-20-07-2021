@@ -353,7 +353,7 @@ background-color: #f2f2f2;
     grid-row: 1;
     margin-left: 15px;
     padding-top: 50px;
-    font-size: xx-large;
+    font-size: 26px;
 }
 .BH1{
     grid-column: 1;
@@ -519,7 +519,7 @@ transform: scale(1.1);
     grid-row: 1;
     margin-left: 50px;
     padding-top: 50px;
-    font-size: xx-large;
+    font-size: 26px;
 }
 .Symbol{
     display: flex;
@@ -647,6 +647,7 @@ margin-right: 30px;
   .activitéCadre:hover{
     cursor: pointer;
     transform: scale(1.05);
+    
   }
   .ActivitéWrap {
     position: relative;
@@ -712,23 +713,37 @@ margin-right: 30px;
 .Footer{
     display: inline-grid;
     background-color: #f2f2f2;
+    height: 170px;
 }
 .Apropos{
+    display: flex;
+    flex-direction: column;
     grid-column: 1;
     grid-row: 1;
    padding-left: 20px;
-   width: 200px;
+   width: 250px;
 }
 .Hebergement{
+    display: flex;
+    flex-direction: column;
     grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+}
+.Assistance{
+    display: flex;
+    flex-direction: column;
+    grid-column: 3;
     grid-row: 1;
     width: 150px;
 }
-.Assistance{
-    grid-column: 3;
-    grid-row: 1;
-    width: 100px;
+
+
+.Decolien{
+    text-decoration: none;
+  color:inherit
 }
+
 
 
 /*////////media queries/////////*/
@@ -736,7 +751,28 @@ margin-right: 30px;
     .Filters{
         width: 90%;
     }
+    .EtoilesBottom2{
+        margin-top: 50px;
+    }
 }
+@media screen and (max-width: 1440px){
+    .EtoilesBottom{
+        margin-top: 45px;
+    }
+    .EtoilesBottom1{
+        margin-top: 45px;
+    }
+    .EtoilesBottom2{
+        margin-top: 45px;
+    }
+    .TH{
+        font-size: 22px;
+    }
+    .TP{
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width: 1366px){
     .TailleHT{
         margin: 0px;
@@ -827,6 +863,15 @@ margin-bottom: 80px;
     grid-column-gap: 200px;
 
 }
+
+}
+@media screen and (max-width: 1024px){
+
+
+    #Footer{
+        grid-column-gap: 100px;
+    
+    }
 
 }
 @media screen and (max-width: 823px){
@@ -1012,7 +1057,7 @@ margin-bottom: 80px;
 #Footer{
     width: 95%;
     margin-top: 0px;
-    grid-column-gap: 100px;
+    grid-column-gap: 50px;
 }
 .Footer{
     width: 90%;
@@ -1044,6 +1089,9 @@ margin-bottom: 80px;
 #Footer{
     width: 95%;
     grid-column-gap: 100px;
+}
+.Footer{
+    height: 500px;
 }
 
 .Apropos{
@@ -1443,6 +1491,9 @@ background-color: white;
 .Margin320{
     margin-right: 15px;
 }
+.Footer{
+    height: 430px;
+}
 
 }
 @media screen and (max-width: 320px){
@@ -1488,22 +1539,22 @@ background-color: white;
             margin-right: 10px;
         }
         #Footer{
-            width: 98%;
+            width: 95%;
         }
         #Footer{
             margin-left: 10px;
         }
         .Apropos{
             margin-left: 20px;
-          width: 300px;
+          width: 270px;
         }
         .Hebergement{
             margin-left: 20px;
-            width: 300px;
+            width: 270px;
         }
         .Assistance{
             margin-left: 20px;
-            width: 300px;
+            width: 270px;
         }
 }
 @media screen and (max-width: 280px){
