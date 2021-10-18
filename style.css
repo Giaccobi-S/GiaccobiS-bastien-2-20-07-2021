@@ -765,7 +765,7 @@ margin-right: 30px;
 }
 @media screen and (max-width: 1440px){
     .EtoilesBottom{
-        margin-top: 45px;
+        margin-top: 60px;
     }
     .EtoilesBottom1{
         margin-top: 45px;
@@ -775,9 +775,31 @@ margin-right: 30px;
     }
     .TH{
         font-size: 22px;
+        margin-left: 15px;
     }
     .TP{
         font-size: 22px;
+    }
+    .blocP1-2-3{
+        margin-left: 25px;
+    }
+    .BH1{
+        margin-left: 15px;
+    }
+    .BH2{
+        margin-left: 15px;
+    }
+    .BH3{
+        margin-left: 15px;
+    }
+    .BH4{
+        margin-left: 15px;
+    }
+    .BH5{
+        margin-left: 15px;
+    }
+    .BH6{
+        margin-left: 15px;
     }
 }
 
@@ -792,6 +814,7 @@ margin-right: 30px;
     .TopEH{
         margin-top: 15px;
     }
+    
 }
 @media screen and (max-width: 1354px){
 
@@ -1127,6 +1150,9 @@ margin-bottom: 80px;
 }
 }
 @media screen and (max-width: 810px){
+    .PH2{
+        margin-left: 40px;
+    }
     .PH3{
         margin-left: 40px;
     }
@@ -1673,8 +1699,9 @@ background-color: white;
         margin-left: 0px;
         width: 95%;
         margin-right: 35px;
-        m
+        
     }
+
     .BH5{
         margin-left: 0px;
         width: 95%;
