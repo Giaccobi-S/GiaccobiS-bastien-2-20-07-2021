@@ -126,11 +126,13 @@ display: flex;
     justify-content: center;
 
 }
-.MargeB{
 
-}
 .GrasT{
     font-size: xx-large;
+    margin-bottom: 0px;
+}
+.enpleinMarge{
+    margin-bottom: 30px;
 }
 
 .bordureNav
@@ -334,15 +336,16 @@ background-color: #f2f2f2;
     margin-top: 30px;
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 31% 30% 30%;
-    grid-template-rows: 10% 31% 31% 15%;
-    grid-column-gap: 20px;
+    grid-template-columns: 33% 31% 31%;
+    grid-template-rows: 10% 33% 33% 15%;
     grid-row-gap: 35px;
     background-color: #f2f2f2;
+    
    
 }
 
 .Hébergements{
+
     display: inline-grid;
     display: flex;
     align-items: center;
@@ -354,10 +357,12 @@ background-color: #f2f2f2;
     margin-left: 15px;
     padding-top: 50px;
     font-size: 26px;
+    margin-left: 35px;
 }
 .BH1{
     grid-column: 1;
     grid-row: 2;
+    
     
 }
 .BH2{
@@ -389,7 +394,7 @@ background-color: #f2f2f2;
     grid-column: 1;
     grid-row: 4;
     margin-bottom: 50px;
-   
+   margin-left: 35px;
     font-size: x-large;
     
 }
@@ -414,7 +419,7 @@ box-shadow:  5px 5px 5px 5px rgb(199, 197, 197);
     background-position: center;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 150px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement2
@@ -422,7 +427,7 @@ box-shadow:  5px 5px 5px 5px rgb(199, 197, 197);
     background-size: cover;
     background-position: center;
     width: 100%;
-    max-height: 130px;
+    max-height: 150px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement3
@@ -431,7 +436,7 @@ box-shadow:  5px 5px 5px 5px rgb(199, 197, 197);
     background-position: center;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 150px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement4
@@ -440,7 +445,7 @@ box-shadow:  5px 5px 5px 5px rgb(199, 197, 197);
     background-position: center;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 150px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement5
@@ -449,7 +454,7 @@ box-shadow:  5px 5px 5px 5px rgb(199, 197, 197);
     background-position: center;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 150px;
     border-radius: 15px 15px 0 0;
 }
 .imgHebergement6
@@ -458,7 +463,7 @@ box-shadow:  5px 5px 5px 5px rgb(199, 197, 197);
     background-position: center;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 150px;
     border-radius: 15px 15px 0 0;
     
 }
@@ -476,11 +481,12 @@ box-shadow:  5px 5px 5px 5px rgb(199, 197, 197);
 .blocTexesEtoiles
 {
     padding-left: 30px;
-    width: 80%;
+    width: 78%;
     height: 90%;
     background-color: white;
     padding: 10px;
     border-radius: 25px;
+    margin-left: 30px;
     
 }
 .blocTexesEtoiles:hover
@@ -562,7 +568,8 @@ transform: scale(1.05);
 
 .blocP1-2-3
 { 
-height: 150px;
+ width: 85%;   
+height: 160px;
 box-shadow: 5px 5px 5px 1px rgb(199, 197, 197); 
 margin-bottom: 10px;
 margin-left: 40px;
@@ -615,7 +622,7 @@ margin-right: 30px;
 
 
 #Activités {
-    
+    margin-left: 15px;
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -623,7 +630,7 @@ margin-right: 30px;
     padding-left: 15px;
     padding-right: 15px;
     grid-row-gap: 30px;
-    
+    width: 97%;
   }
   
   .activités{
@@ -706,9 +713,10 @@ margin-right: 30px;
     margin-top: 50px;
     grid-column-gap: 300px;
     background-color: #f2f2f2;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 20px;
+    width: 97%;
 }
 .Footer{
     display: inline-grid;
@@ -792,6 +800,7 @@ margin-right: 30px;
     }
 
 }
+
 @media screen and (max-width: 1280px){
 .Margin320{
     margin-right: 30px;
@@ -807,8 +816,9 @@ margin-right: 30px;
     flex-direction: column-reverse;
 }
 #Populaire{
-    width: 95%;
-    margin-left: 2.5%;
+    width: 97%;
+    height: 300px;
+    margin-left: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 70px 300px
@@ -821,59 +831,98 @@ margin-right: 30px;
 .PH1{
     grid-column: 1;
     grid-row: 2;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 0px;
 }
 
 .PH2{
     grid-column: 2;
     grid-row: 2;
+    margin-right: 20px;
 }
 .PH3{
     grid-column: 3;
     grid-row: 2;
+    margin-right: 50px;
 }
 .Symbol{
     grid-column: 3;
     grid-row: 1;
 }
 .EtoilesBottom{
-    margin-top: 35px;
+    margin-top: 70px;
 }
 .EtoilesBottom1{
-    margin-top: 40px;
+    margin-top: 57px;
 }
 .EtoilesBottom2{
-    margin-top: 35px;
+    margin-top: 75px;
 }
 .blocP1-2-3{
-width: 250px;
-margin-bottom: 80px;
+width: 325px;
+margin-bottom: 140px;
 
 }
 
 #Hébergements{
-    width: 95%;
+    width: 97%;
     margin-top: 0px;
-    margin-left: 2.5%;
+    margin-left: 20px;
     margin-bottom: 50px;
    
 }
+#Activités{
+    margin-left: 5px;
+}
 #Footer{
     grid-column-gap: 200px;
-
+margin-left: 20px;
 }
 
 }
 @media screen and (max-width: 1024px){
-
-
+    #Nav{
+        width: 97%;
+    }
+    .MTN1{
+        margin-right: 20px;
+    }
+    .MTN2{
+        margin-right: 20px;
+    }
+    .MT3{
+        margin-right: 20px;
+    }
+    
+    .PH3{
+        margin-left: 20px;
+    }
+.blocP1-2-3{
+    width: 275px;
+}
+.EtoilesBottom{
+    margin-top: 57px;
+}
+.EtoilesBottom2{
+    margin-top: 60px;
+}
+#Populaire{
+    margin-left: 15px;
+}
+#Hébergements{
+    margin-left: 15px;
+}
+#Activités{
+    padding: 0px;
+    margin-left: 15px;
+}
     #Footer{
         grid-column-gap: 100px;
-    
+    margin-left: 15px;
     }
 
 }
+
 @media screen and (max-width: 823px){
 .GrasT{
     font-size: x-large;
@@ -1077,7 +1126,129 @@ margin-bottom: 80px;
     grid-row: 1;
 }
 }
+@media screen and (max-width: 810px){
+    .PH3{
+        margin-left: 40px;
+    }
+    .imgPopulaire1{
+        max-width: 230px; 
+     }
+     .imgPopulaire2{
+         max-width: 230px;
+     }
+     .imgPopulaire3{
+         max-width: 230px;
+     }
+     .margePI{
+         font-size: 25px;
+     }
+     #Hébergements{
+        margin-left: 15px;
+        padding-left: 0px;
+        width: 95%;
+    }
+    .TH{
+        margin-left: 0px;
+    }
+    .BH1{
+        margin-left: 0px;
+    }
+    .BH3{
+        margin-left: 0px;
+    }
+    .BH5{
+        margin-left: 0px;
+    }
+    .blocTexesEtoiles{
+    width: 270px;
+    }
+    .imgHebergement1{
+        height: 140px;
+    }
+    .imgHebergement2{
+        height: 140px;
+    }
+    .imgHebergement3{
+        height: 140px;
+    }
+    .imgHebergement4{
+        height: 140px;
+    }
+    .imgHebergement5{
+        height: 140px;
+    }
+    .imgHebergement6{
+        height: 140px;
+    }
+    .AfficherP{
+        margin-left: 0px;
+    }
+    #Activités{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 768px){
+.imgPopulaire1{
+   max-width: 230px; 
+}
+.imgPopulaire2{
+    max-width: 230px;
+}
+.imgPopulaire3{
+    max-width: 230px;
+}
+.margePI{
+    font-size: 25px;
+}
 
+    .PH3{
+        margin-left: 40px;
+    }
+#Hébergements{
+    margin-left: 15px;
+    padding-left: 0px;
+    width: 95%;
+}
+.TH{
+    margin-left: 0px;
+}
+.BH1{
+    margin-left: 0px;
+}
+.BH3{
+    margin-left: 0px;
+}
+.BH5{
+    margin-left: 0px;
+}
+.blocTexesEtoiles{
+width: 270px;
+}
+.imgHebergement1{
+    height: 140px;
+}
+.imgHebergement2{
+    height: 140px;
+}
+.imgHebergement3{
+    height: 140px;
+}
+.imgHebergement4{
+    height: 140px;
+}
+.imgHebergement5{
+    height: 140px;
+}
+.imgHebergement6{
+    height: 140px;
+}
+.AfficherP{
+    margin-left: 0px;
+}
+#Activités{
+    width: 95%;
+}
+}
 @media screen and (max-width: 667px){
     .MargeBloc1{
         margin-right: 0px;
@@ -1085,6 +1256,9 @@ margin-bottom: 80px;
     }
 .navH-A{
     margin-left: 40px;
+}
+.blocTexesEtoiles{
+    width: 225px;
 }
 #Footer{
     width: 95%;
@@ -1216,7 +1390,9 @@ padding: 0px;
     grid-template-rows: 100px 150px 150px 150px;
     padding-bottom: 30px;
 }
-
+.margePI{
+    font-size: 15px;
+}
 .TP{
     padding-top: 20px;
     margin: 0px;
@@ -1270,9 +1446,9 @@ margin-right: 0px;
 #Hébergements{
 background-color: white;
   height: 1500px;
-    width: 100%;
-    margin-left: 0px;
-    grid-template-columns: 90%;
+    width: 97%;
+    margin-left: 15px;
+    grid-template-columns: 97%;
     grid-template-rows: 3% 10% 10% 10% 10% 10% 10% 3%;
     grid-row-gap: 50px;
    margin-left: 5px;
@@ -1292,6 +1468,7 @@ background-color: white;
 }
 
     .TH{
+        margin-left: 0px;
         margin-bottom: 0px;
         padding-top: 20px;
         grid-column: 1;
@@ -1303,37 +1480,42 @@ background-color: white;
         grid-column: 1;
         grid-row: 2;
        padding: 5px;
-       
+       margin-left: 0px;
     }
     .BH2{
         grid-column: 1;
         grid-row: 3;
         padding: 5px;
         margin-top: 50px;
+        margin-left: 0px;
     }
     .BH3{
         grid-column: 1;
         grid-row: 4;
         padding: 5px;
         margin-top: 100px;
+        margin-left: 0px;
     }
     .BH4{
         grid-column: 1;
         grid-row: 5;
         padding: 5px;
         margin-top: 150px;
+        margin-left: 0px;
     }
     .BH5{
         grid-column: 1;
         grid-row: 6;
         padding: 5px;
         margin-top: 200px;
+        margin-left: 0px;
     }
     .BH6{
         grid-column: 1;
         grid-row: 7;
         padding: 5px;
         margin-top: 250px;
+        margin-left: 0px;
     }
     .AfficherP{
         grid-column: 1;
@@ -1342,6 +1524,7 @@ background-color: white;
         margin-bottom: 0px;
         padding: 5px;
         margin-top: 300px;
+        margin-left: 0px;
     }
 
     
@@ -1375,10 +1558,10 @@ background-color: white;
 
     #Activités {
         display: grid;
-        grid-template-columns: 95%;
+        grid-template-columns: 97%;
         grid-template-rows: 3% 10% 10% 10% 10% 10% 3%;
         grid-row-gap: 80px;
-        margin-left: 10px;
+        margin-left: 15px;
         height: 1450px;
       }
       
@@ -1466,6 +1649,46 @@ background-color: white;
     }
     .FiltersFilter{
         margin-right: 12px;
+    }
+    .BH1{
+        margin-left: 0px;
+        width: 95%;
+        margin-right: 35px;
+        
+        
+    }
+    .BH2{
+        margin-left: 0px;
+        width: 95%;
+        margin-right: 35px;
+        
+    }
+    .BH3{
+        margin-left: 0px;
+        width: 95%;
+        margin-right: 35px;
+        
+    }
+    .BH4{
+        margin-left: 0px;
+        width: 95%;
+        margin-right: 35px;
+        m
+    }
+    .BH5{
+        margin-left: 0px;
+        width: 95%;
+        margin-right: 35px;
+        
+    }
+    .BH6{
+        margin-left: 0px;
+        width: 95%;
+        margin-right: 35px;
+        
+    }
+    .AfficherP{
+        margin-left: 0px;
     }
     .TH{
         margin-left: 0px;
